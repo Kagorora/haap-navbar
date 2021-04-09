@@ -48,19 +48,20 @@ const Header = () => {
         </div>
       </div>
       <div className="largNavBar">
-        <div className='socialMedial bg-red-900 w-screen h-9 pl-64 pr-64'>
-          <ul className='flex flex-row float-left justify-center'>
-            <li className='mr-8 mt-2 text-sm flex'><MdEmail className='mr-2'/><p>Info@haapastore.com</p></li>
-            <li className='mt-2 text-sm flex'><FaPhone className='mr-2'/><p>(+250) 783185866</p></li>
+        <div className='socialMedial bg-gray-300 w-screen h-9 pl-64 pr-64'>
+         
+          <ul className='flex float-left justify-center h-full'>
+            <li className='mr-8 text-sm flex flex justify-center items-center'><MdEmail className='mr-4'/><p>Info@haapastore.com</p></li>
+            <li className='text-sm flex flex justify-center items-center'><FaPhone className='mr-4'/><p>(+250) 783185866</p></li>
           </ul>
-          <ul className='flex flex-row float-right my-1'>
-            <li className='flex justify-between w-32 h-6'>
-              <div><AiFillInstagram className='my-1' /></div>
-              <div>< AiFillTwitterCircle className='my-1' /></div>
-              <div><SiFacebook className='my-1' /></div>
-            </li>
-            <li className='ml-40 flex content-between'> Eng </li>
+
+          <ul className='flex float-right justify-center h-full'>
+              <div className='flex justify-center items-center mr-8'><AiFillInstagram /></div>
+              <div className='flex justify-center items-center mr-8'>< AiFillTwitterCircle /></div>
+              <div className='flex justify-center items-center mr-8'><SiFacebook /></div>
+              <div className='flex justify-center items-center ml-36'> Eng </div>
           </ul>
+
         </div>
       </div>
     </>
